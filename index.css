@@ -1,0 +1,56 @@
+/* Fill CSS here */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #2b619e;
+    text-decoration: underline;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    text-align: center;
+
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+form {
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input[type="submit"] {
+    background-color: #2b619e;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 90%;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+table th {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #095a90;
+    color: white;
+}
